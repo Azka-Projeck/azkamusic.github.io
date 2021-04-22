@@ -1,0 +1,237 @@
+body {
+  background-color: #f3f4f5;
+}
+.jumbotron {
+  padding-top: 2rem;
+  background-color: #272323;
+}
+.navbar-brand {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+marquee {
+  list-style: none;
+  margin: 0;
+  margin: 0;
+  background-color: #f3f4f5;
+  color: #272323;
+}
+marquee ul {
+  font-size: large;
+}
+table {
+  margin: auto;
+}
+table audio {
+  text-align: center;
+  height: 20px;
+}
+section i {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ef3739;
+}
+
+.lirik, .lirik02{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.lirik .lirik-box {
+  width: 30%;
+  padding: 15px;
+  margin: 50px 20px;
+}
+
+.lirik .lirik-box img{
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.lirik .lirik-box h4{
+  margin-bottom: 5px;
+  color: #ef3739;
+  border-left: 3px solid #ef3739;
+  border-radius: 2px;
+  padding-left: 5px;
+}
+
+.lirik .lirik-box h5{
+  margin-bottom: 15px;
+}
+
+.lirik .lirik-box p{
+  font-size: 15px;
+  line-height: 28px;
+  height: 140px;
+  overflow: hidden;
+}
+
+.lirik .lirik-box a{
+  display: inline-block;
+  color: #fff;
+  background-color: #ef3739;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.lirik .lirik-box a:hover{
+  box-shadow: 0 2px 0 2px rgba(0, 0, 0, 0.20);
+}
+
+.lirik .lirik-box.showContent p{
+  height: auto;
+}
+
+.lirik .lirik-box.showContent a.readmore-btn{
+  background-color: #272323;
+}
+
+.lirik02 .lirik-box {
+  width: 30%;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 50px 20px;
+}
+
+.lirik02 .lirik-box img{
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+
+.lirik02 .lirik-box h4{
+  margin-bottom: 5px;
+  color: #ef3739;
+  border-left: 3px solid #ef3739;
+  border-radius: 2px;
+  padding-left: 5px;
+}
+
+.lirik02 .lirik-box h5{
+  margin-bottom: 15px;
+}
+
+.lirik02 .lirik-box p{
+  font-size: 15px;
+  line-height: 28px;
+  height: 140px;
+  overflow: hidden;
+}
+
+.lirik02 .lirik-box a{
+  display: inline-block;
+  color: #fff;
+  background-color: #ef3739;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.lirik02 .lirik-box a:hover{
+  box-shadow: 0 2px 0 2px rgba(0, 0, 0, 0.20);
+}
+
+.lirik02 .lirik-box.showContent p{
+  height: auto;
+}
+
+.lirik02 .lirik-box.showContent a.readmore-btn{
+  background-color: #272323;
+}
+
+#aplayer{
+  left: 0;
+  width: 40%;
+  margin: 0 auto;
+  box-shadow: 0 -2px 2px #dadada;
+  background-color: #fff;
+  transition: all ease 0.5s;
+}
+
+.view{
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+footer {
+  height: auto;
+  width: 100%;
+  font-family: arial;
+  padding-top: 40px;
+  color: white;
+}
+
+.footer-contents {
+  background: #272323;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.footer-contents h3 {
+  font-size: 2rem;
+  font-family: arial;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+.footer-contents h3 span{
+  color: #ef3739;
+  
+}
+
+.footer-contents p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.social {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin: 1rem 0 3rem 0;
+}
+.social li {
+  margin: 0 10px;
+  padding-right: 30px;
+}
+.social a {
+  text-decoration: none;
+  color: white;
+}
+.social a i {
+  font-size: 1.8rem;
+}
+.social a:hover {
+  color: #ef3739;
+}
+
+
+
+/*Responsif Mobile Middle*/
+
+@media(min-width:321px) and (max-width:425px){
+  marquee{
+    width: 65%;
+  }
+
+  
+}
